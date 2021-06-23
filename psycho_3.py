@@ -47,7 +47,7 @@ def stat_year(mess_is_year, list_of_nums):
 
 
 # description for bot
-@bot.message_handler(commands=["start"])
+@bot.message_handler(commands=["start", "help"])
 def hi_func(message):
     # отправляем сообщение пользователю
     bot.send_message(message.chat.id,
